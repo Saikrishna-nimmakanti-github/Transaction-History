@@ -19,7 +19,7 @@ jobs:
       - name: Build and Push Docker Image 
         uses: docker/build-push-action@v5 
         with:
-          context: . 
+          context: .
           file: ./Dockerfile 
           push: true 
           tags: saikrishnanimmakanti/ust-retail-app:v1.1.0
